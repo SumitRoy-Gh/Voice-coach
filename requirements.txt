@@ -1,0 +1,17 @@
+#requires-python = ">=3.12"
+# Core vision
+opencv-python==4.10.0.84
+mediapipe==0.10.35
+
+# Numerical / data
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization (for testing and dashboard)
+matplotlib==3.9.0
+
+# TensorFlow (for running saved models locally — inference only)
+tensorflow==2.21.0
+
+# For the behavior layer
+scipy==1.13.0
